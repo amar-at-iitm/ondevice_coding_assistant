@@ -1,0 +1,7 @@
+# For Docker interaction
+docker
+
+# For a real LLM, you would need libraries like:
+transformers
+torch
+accelerate
