@@ -52,7 +52,16 @@ The assistant follows a simple yet powerful loop:
 
 ---
 
-##  Getting Started
+## Project Structure
+```
+ondevice_coding_assistant/
+├── config.py           # Configuration (like max attempts)
+├── llm_interface.py    # Handles interaction with GPT-OSS-20B
+├── sandbox.py          # Manages safe code execution in Docker
+├── main.py             # The main application logic and CLI
+├── Dockerfile          # Defines the environment for running user code
+└── requirements.txt    # Python dependencies
+```
 
 ### Prerequisites
 
@@ -65,8 +74,8 @@ The assistant follows a simple yet powerful loop:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/on-device-coding-assistant.git](https://github.com/your-username/on-device-coding-assistant.git)
-    cd on-device-coding-assistant
+    git clone https://github.com/amar-at-iitm/ondevice_coding_assistant
+    cd ondevice_coding_assistant
     ```
 
 2.  **Set up the Language Model:**
@@ -135,9 +144,3 @@ output/
 
 
 -----
-
-##  License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-```
