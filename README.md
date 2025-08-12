@@ -101,17 +101,17 @@ ondevice_coding_assistant/
 
 ### Command-Line Interface (CLI)
 
-Use the `assistant.py` script to interact with the assistant.
+Use the `main.py` script to interact with the assistant.
 
 **Basic Example:**
 ```bash
-python assistant.py "Create a Python script that prints the first 20 numbers of the Fibonacci sequence."
+python main.py "Create a Python script that prints the first 20 numbers of the Fibonacci sequence."
 ````
 
 **Example with Language Constraint:**
 
 ```bash
-python assistant.py --lang "Rust" "Write a function that takes two integers and returns their sum."
+python main.py --lang "Rust" "Write a function that takes two integers and returns their sum."
 ```
 
 ### Outputs
